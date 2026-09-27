@@ -1,0 +1,12 @@
+/node_modules
+/.next
+/out
+/build
+/.cache
+tsconfig.tsbuildinfo
+.DS_Store
+*.pem
+.env*.local
+.vercel
+next-env.d.ts
+.adnify/

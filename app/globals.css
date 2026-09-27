@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-sans: "PingFang SC", "Microsoft YaHei", "Segoe UI", system-ui,
+    sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-slate-50 text-ink antialiased;
+  background-image:
+    radial-gradient(60rem 60rem at 80% -10%, rgba(99, 102, 241, 0.08), transparent),
+    radial-gradient(50rem 50rem at -10% 20%, rgba(129, 140, 248, 0.08), transparent);
+  background-attachment: fixed;
+}
+
+/* 让 content 里的换行正常显示 */
+.prose-content {
+  @apply whitespace-pre-line leading-relaxed text-ink-soft;
+}
