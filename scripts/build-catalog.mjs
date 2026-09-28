@@ -9,6 +9,8 @@
  * 数据源（均为长期维护、场景/面试导向、可实测抓取的中文技术站）：
  * - JavaGuide（javaguide.cn）：Java / 计算机基础 / 数据库 / 系统设计 / 分布式 / 高性能高可用
  * - 小林 coding（xiaolincoding.com）：图解网络 / 操作系统 / MySQL / Redis / 面试精选 / 大厂面经
+ * - 《深入理解 AI Agent》（bojieli.github.io/ai-agent-book，Apache-2.0）：无 sitemap，
+ *   从目录页取章节，按小节拆成知识点（URL 带 #锚点，fetchDoc 只抽取该小节正文）
  *
  * 运行：node scripts/build-catalog.mjs   （或 npm run catalog）
  * 输出：data/catalog.json
@@ -89,6 +91,24 @@ const FEEDS = [
       { prefix: "/interview/", track: "面试专题", category: "后端面试精选", difficulty: "高级" },
       { prefix: "/backend_interview/", track: "面试专题", category: "大厂面经", difficulty: "高级" },
     ],
+  },
+];
+
+/**
+ * 书籍源：没有 sitemap，从目录页解析章节链接，再把每章按 h2 小节拆成知识点。
+ * 超过 splitAboveChars 且带 h3 的长小节继续按 h3 拆，避免单篇被 fetchDoc 截断太多。
+ */
+const BOOKS = [
+  {
+    key: "aibook",
+    site: "深入理解 AI Agent",
+    index: "https://bojieli.github.io/ai-agent-book/astro/",
+    chapterLink: /href="([^"]*\/book\/chapter(\d+)\/)"/g,
+    titleStrip: /\s*[—-]\s*深入理解 AI Agent\s*$/,
+    track: "AI Agent",
+    difficulty: (n) => (n === 1 ? "入门" : n <= 7 ? "进阶" : "高级"),
+    skipSection: (id, title) => id === "footnote-label" || /^(本章小结|思考题|注释)$/.test(title),
+    splitAboveChars: 8000,
   },
 ];
 
@@ -303,6 +323,91 @@ async function buildFeed(feed, prevByUrl) {
   return topics;
 }
 
+const htmlToText = (s) => decodeEntities(s.replace(/<[^>]+>/g, " ")).replace(/\s+/g, " ").trim();
+
+/** 列出正文中带 id 的 h2/h3，并算出每个标题所辖范围（到下一个同级或更高级标题为止） */
+function listSections(article) {
+  const re = /<h([23])\b[^>]*\sid="([^"]+)"[^>]*>([\s\S]*?)<\/h\1>/gi;
+  const heads = [];
+  let m;
+  while ((m = re.exec(article)) !== null) {
+    heads.push({ level: Number(m[1]), id: m[2], title: htmlToText(m[3]), start: m.index });
+  }
+  return heads.map((h, i) => {
+    const next = heads.slice(i + 1).find((n) => n.level <= h.level);
+    const html = article.slice(h.start, next ? next.start : article.length);
+    const firstP = html.match(/<p\b[^>]*>([\s\S]*?)<\/p>/i)?.[1];
+    let desc = firstP ? htmlToText(firstP) : "";
+    if (desc.length > 90) desc = desc.slice(0, 90) + "…";
+    return { ...h, textLength: htmlToText(html).length, desc, index: i };
+  });
+}
+
+async function buildBook(book) {
+  console.log(`\n[${book.site}] 拉取目录页: ${book.index}`);
+  const idx = await fetchText(book.index);
+  if (!idx.ok) {
+    console.warn(`  ✗ 目录页抓取失败 (status ${idx.status})，跳过该源`);
+    return [];
+  }
+
+  const chapters = new Map();
+  for (const m of idx.text.matchAll(book.chapterLink)) {
+    chapters.set(Number(m[2]), new URL(m[1], book.index).href);
+  }
+  const ordered = [...chapters.entries()].sort((a, b) => a[0] - b[0]);
+  console.log(`  共 ${ordered.length} 章`);
+
+  const topics = [];
+  for (const [n, url] of ordered) {
+    const page = await fetchText(url);
+    await sleep(REQUEST_DELAY_MS);
+    if (!page.ok) {
+      console.warn(`  ✗ 第 ${n} 章抓取失败 (status ${page.status})`);
+      continue;
+    }
+    const chapterTitle = extractMeta(page.text, book.titleStrip).title || `第 ${n} 章`;
+    const article = page.text.match(/<article[\s\S]*?<\/article>/i)?.[0] ?? page.text;
+    const sections = listSections(article);
+
+    const picked = [];
+    for (const s of sections) {
+      if (s.level !== 2 || book.skipSection(s.id, s.title)) continue;
+      const children = sections.filter(
+        (c) => c.level === 3 && c.index > s.index &&
+          !sections.slice(s.index + 1, c.index).some((x) => x.level === 2)
+      );
+      if (s.textLength > book.splitAboveChars && children.length > 0) {
+        picked.push(...children.map((c) => ({ ...c, parent: s.title })));
+      } else {
+        picked.push(s);
+      }
+    }
+
+    const category = `第${n}章 · ${chapterTitle}`;
+    picked.forEach((s, i) => {
+      topics.push({
+        id: `${book.key}-ch${n}-${s.id}`,
+        track: book.track,
+        category,
+        title: s.title,
+        difficulty: book.difficulty(n),
+        focus: s.desc || `${category}${s.parent ? ` · ${s.parent}` : ""}｜精读「${s.title}」。`,
+        source: book.site,
+        lastmod: null,
+        seq: i,
+        references: [
+          { label: `${book.site} · 第${n}章 · ${s.title}`, url: `${url}#${s.id}`, type: "tutorial" },
+        ],
+      });
+    });
+    console.log(`  第 ${n} 章「${chapterTitle}」：${picked.length} 个知识点`);
+  }
+
+  console.log(`  ✓ ${book.site} 收录 ${topics.length} 个知识点`);
+  return topics;
+}
+
 /** 读取上一次的 catalog.json，构建 url → { title, focus, lastmod } 映射，用于增量复用 */
 async function loadPrevByUrl() {
   const map = new Map();
@@ -332,14 +437,20 @@ async function main() {
     sources.push({ key: feed.key, site: feed.site, count: topics.length });
     all.push(...topics);
   }
+  for (const book of BOOKS) {
+    const topics = await buildBook(book);
+    sources.push({ key: book.key, site: book.site, count: topics.length });
+    all.push(...topics);
+  }
 
-  // 按方向/分类稳定排序，便于浏览
+  // 按方向/分类稳定排序，便于浏览；书籍小节带 seq，保持原书顺序
+  const byZh = (x, y) => x.localeCompare(y, "zh", { numeric: true });
   all.sort((a, b) =>
-    a.track === b.track
-      ? a.category === b.category
-        ? a.title.localeCompare(b.title, "zh")
-        : a.category.localeCompare(b.category, "zh")
-      : a.track.localeCompare(b.track, "zh")
+    a.track !== b.track
+      ? byZh(a.track, b.track)
+      : a.category !== b.category
+        ? byZh(a.category, b.category)
+        : (a.seq ?? 0) - (b.seq ?? 0) || byZh(a.title, b.title)
   );
 
   const payload = {

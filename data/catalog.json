@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-27T10:15:47.440Z",
+  "generatedAt": "2026-09-28T07:55:45.358Z",
   "sources": [
     {
       "key": "javaguide",
@@ -10,9 +10,14 @@
       "key": "xiaolin",
       "site": "小林coding",
       "count": 190
+    },
+    {
+      "key": "aibook",
+      "site": "深入理解 AI Agent",
+      "count": 129
     }
   ],
-  "total": 443,
+  "total": 572,
   "topics": [
     {
       "id": "javaguide-java-concurrent-reentrantlock",
@@ -746,6 +751,23 @@
       ]
     },
     {
+      "id": "javaguide-java-new-features-java9",
+      "track": "后端语言",
+      "category": "Java · 新特性",
+      "title": "Java 9 新特性概览",
+      "difficulty": "进阶",
+      "focus": "解析 Java 9 的模块化系统与 jlink 等更新，理解对运行时镜像与库使用的影响。重点围绕 JEP 222: Java Shell Tool (JShell)、JEP 261…",
+      "source": "JavaGuide",
+      "lastmod": "2026-07-21T11:13:26.000Z",
+      "references": [
+        {
+          "label": "JavaGuide · Java 9 新特性概览",
+          "url": "https://javaguide.cn/java/new-features/java9.html",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
       "id": "javaguide-java-new-features-java10",
       "track": "后端语言",
       "category": "Java · 新特性",
@@ -979,23 +1001,6 @@
         {
           "label": "JavaGuide · Java 26 新特性概览",
           "url": "https://javaguide.cn/java/new-features/java26.html",
-          "type": "tutorial"
-        }
-      ]
-    },
-    {
-      "id": "javaguide-java-new-features-java9",
-      "track": "后端语言",
-      "category": "Java · 新特性",
-      "title": "Java 9 新特性概览",
-      "difficulty": "进阶",
-      "focus": "解析 Java 9 的模块化系统与 jlink 等更新，理解对运行时镜像与库使用的影响。重点围绕 JEP 222: Java Shell Tool (JShell)、JEP 261…",
-      "source": "JavaGuide",
-      "lastmod": "2026-07-21T11:13:26.000Z",
-      "references": [
-        {
-          "label": "JavaGuide · Java 9 新特性概览",
-          "url": "https://javaguide.cn/java/new-features/java9.html",
           "type": "tutorial"
         }
       ]
@@ -1506,74 +1511,6 @@
         {
           "label": "JavaGuide · Shell 编程基础知识总结",
           "url": "https://javaguide.cn/cs-basics/operating-system/shell-intro.html",
-          "type": "tutorial"
-        }
-      ]
-    },
-    {
-      "id": "xiaolin-os-9_linux_cmd-linux_network",
-      "track": "计算机基础",
-      "category": "操作系统（图解）",
-      "title": "10.1 如何查看网络的性能指标？",
-      "difficulty": "进阶",
-      "focus": "图解计算机基础，覆盖 Java 后端面试，让天下没有难懂的八股文！",
-      "source": "小林coding",
-      "lastmod": "2022-06-22T16:00:00.000Z",
-      "references": [
-        {
-          "label": "小林coding · 10.1 如何查看网络的性能指标？",
-          "url": "https://www.xiaolincoding.com/os/9_linux_cmd/linux_network.html",
-          "type": "tutorial"
-        }
-      ]
-    },
-    {
-      "id": "xiaolin-os-9_linux_cmd-pv_uv",
-      "track": "计算机基础",
-      "category": "操作系统（图解）",
-      "title": "10.2 如何从日志分析 PV、UV？",
-      "difficulty": "进阶",
-      "focus": "图解计算机基础，覆盖 Java 后端面试，让天下没有难懂的八股文！",
-      "source": "小林coding",
-      "lastmod": "2022-04-30T16:00:00.000Z",
-      "references": [
-        {
-          "label": "小林coding · 10.2 如何从日志分析 PV、UV？",
-          "url": "https://www.xiaolincoding.com/os/9_linux_cmd/pv_uv.html",
-          "type": "tutorial"
-        }
-      ]
-    },
-    {
-      "id": "xiaolin-os-10_learn-learn_os",
-      "track": "计算机基础",
-      "category": "操作系统（图解）",
-      "title": "11.1 操作系统怎么学？",
-      "difficulty": "进阶",
-      "focus": "图解计算机基础，覆盖 Java 后端面试，让天下没有难懂的八股文！",
-      "source": "小林coding",
-      "lastmod": "2022-04-30T16:00:00.000Z",
-      "references": [
-        {
-          "label": "小林coding · 11.1 操作系统怎么学？",
-          "url": "https://www.xiaolincoding.com/os/10_learn/learn_os.html",
-          "type": "tutorial"
-        }
-      ]
-    },
-    {
-      "id": "xiaolin-os-10_learn-draw",
-      "track": "计算机基础",
-      "category": "操作系统（图解）",
-      "title": "11.2 画图经验分享",
-      "difficulty": "进阶",
-      "focus": "图解计算机基础，覆盖 Java 后端面试，让天下没有难懂的八股文！",
-      "source": "小林coding",
-      "lastmod": "2025-08-09T16:00:00.000Z",
-      "references": [
-        {
-          "label": "小林coding · 11.2 画图经验分享",
-          "url": "https://www.xiaolincoding.com/os/10_learn/draw.html",
           "type": "tutorial"
         }
       ]
@@ -2101,6 +2038,74 @@
         {
           "label": "小林coding · 9.4 什么是一致性哈希？",
           "url": "https://www.xiaolincoding.com/os/8_network_system/hash.html",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "xiaolin-os-9_linux_cmd-linux_network",
+      "track": "计算机基础",
+      "category": "操作系统（图解）",
+      "title": "10.1 如何查看网络的性能指标？",
+      "difficulty": "进阶",
+      "focus": "图解计算机基础，覆盖 Java 后端面试，让天下没有难懂的八股文！",
+      "source": "小林coding",
+      "lastmod": "2022-06-22T16:00:00.000Z",
+      "references": [
+        {
+          "label": "小林coding · 10.1 如何查看网络的性能指标？",
+          "url": "https://www.xiaolincoding.com/os/9_linux_cmd/linux_network.html",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "xiaolin-os-9_linux_cmd-pv_uv",
+      "track": "计算机基础",
+      "category": "操作系统（图解）",
+      "title": "10.2 如何从日志分析 PV、UV？",
+      "difficulty": "进阶",
+      "focus": "图解计算机基础，覆盖 Java 后端面试，让天下没有难懂的八股文！",
+      "source": "小林coding",
+      "lastmod": "2022-04-30T16:00:00.000Z",
+      "references": [
+        {
+          "label": "小林coding · 10.2 如何从日志分析 PV、UV？",
+          "url": "https://www.xiaolincoding.com/os/9_linux_cmd/pv_uv.html",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "xiaolin-os-10_learn-learn_os",
+      "track": "计算机基础",
+      "category": "操作系统（图解）",
+      "title": "11.1 操作系统怎么学？",
+      "difficulty": "进阶",
+      "focus": "图解计算机基础，覆盖 Java 后端面试，让天下没有难懂的八股文！",
+      "source": "小林coding",
+      "lastmod": "2022-04-30T16:00:00.000Z",
+      "references": [
+        {
+          "label": "小林coding · 11.1 操作系统怎么学？",
+          "url": "https://www.xiaolincoding.com/os/10_learn/learn_os.html",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "xiaolin-os-10_learn-draw",
+      "track": "计算机基础",
+      "category": "操作系统（图解）",
+      "title": "11.2 画图经验分享",
+      "difficulty": "进阶",
+      "focus": "图解计算机基础，覆盖 Java 后端面试，让天下没有难懂的八股文！",
+      "source": "小林coding",
+      "lastmod": "2025-08-09T16:00:00.000Z",
+      "references": [
+        {
+          "label": "小林coding · 11.2 画图经验分享",
+          "url": "https://www.xiaolincoding.com/os/10_learn/draw.html",
           "type": "tutorial"
         }
       ]
@@ -3143,6 +3148,142 @@
       ]
     },
     {
+      "id": "xiaolin-network-3_tcp-tcp_feature",
+      "track": "计算机基础",
+      "category": "计算机网络（图解）",
+      "title": "4.2 TCP 重传、滑动窗口、流量控制、拥塞控制",
+      "difficulty": "进阶",
+      "focus": "图解计算机基础，覆盖 Java 后端面试，让天下没有难懂的八股文！",
+      "source": "小林coding",
+      "lastmod": "2022-09-06T16:00:00.000Z",
+      "references": [
+        {
+          "label": "小林coding · 4.2 TCP 重传、滑动窗口、流量控制、拥塞控制",
+          "url": "https://www.xiaolincoding.com/network/3_tcp/tcp_feature.html",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "xiaolin-network-3_tcp-tcp_tcpdump",
+      "track": "计算机基础",
+      "category": "计算机网络（图解）",
+      "title": "4.3 TCP 实战抓包分析",
+      "difficulty": "进阶",
+      "focus": "图解计算机基础，覆盖 Java 后端面试，让天下没有难懂的八股文！",
+      "source": "小林coding",
+      "lastmod": "2023-01-04T16:00:00.000Z",
+      "references": [
+        {
+          "label": "小林coding · 4.3 TCP 实战抓包分析",
+          "url": "https://www.xiaolincoding.com/network/3_tcp/tcp_tcpdump.html",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "xiaolin-network-3_tcp-tcp_queue",
+      "track": "计算机基础",
+      "category": "计算机网络（图解）",
+      "title": "4.4 TCP 半连接队列和全连接队列",
+      "difficulty": "进阶",
+      "focus": "图解计算机基础，覆盖 Java 后端面试，让天下没有难懂的八股文！",
+      "source": "小林coding",
+      "lastmod": "2026-04-13T16:00:00.000Z",
+      "references": [
+        {
+          "label": "小林coding · 4.4 TCP 半连接队列和全连接队列",
+          "url": "https://www.xiaolincoding.com/network/3_tcp/tcp_queue.html",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "xiaolin-network-3_tcp-tcp_optimize",
+      "track": "计算机基础",
+      "category": "计算机网络（图解）",
+      "title": "4.5 如何优化 TCP?",
+      "difficulty": "进阶",
+      "focus": "图解计算机基础，覆盖 Java 后端面试，让天下没有难懂的八股文！",
+      "source": "小林coding",
+      "lastmod": "2026-04-13T16:00:00.000Z",
+      "references": [
+        {
+          "label": "小林coding · 4.5 如何优化 TCP?",
+          "url": "https://www.xiaolincoding.com/network/3_tcp/tcp_optimize.html",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "xiaolin-network-3_tcp-tcp_stream",
+      "track": "计算机基础",
+      "category": "计算机网络（图解）",
+      "title": "4.6 如何理解是 TCP 面向字节流协议？",
+      "difficulty": "进阶",
+      "focus": "图解计算机基础，覆盖 Java 后端面试，让天下没有难懂的八股文！",
+      "source": "小林coding",
+      "lastmod": "2026-04-13T16:00:00.000Z",
+      "references": [
+        {
+          "label": "小林coding · 4.6 如何理解是 TCP 面向字节流协议？",
+          "url": "https://www.xiaolincoding.com/network/3_tcp/tcp_stream.html",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "xiaolin-network-3_tcp-isn_deff",
+      "track": "计算机基础",
+      "category": "计算机网络（图解）",
+      "title": "4.7 为什么 TCP 每次建立连接时，初始化序列号都要不一样呢？",
+      "difficulty": "进阶",
+      "focus": "图解计算机基础，覆盖 Java 后端面试，让天下没有难懂的八股文！",
+      "source": "小林coding",
+      "lastmod": "2023-10-20T16:00:00.000Z",
+      "references": [
+        {
+          "label": "小林coding · 4.7 为什么 TCP 每次建立连接时，初始化序列号都要不一样呢？",
+          "url": "https://www.xiaolincoding.com/network/3_tcp/isn_deff.html",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "xiaolin-network-3_tcp-syn_drop",
+      "track": "计算机基础",
+      "category": "计算机网络（图解）",
+      "title": "4.8 SYN 报文什么情况下会被丢弃？",
+      "difficulty": "进阶",
+      "focus": "图解计算机基础，覆盖 Java 后端面试，让天下没有难懂的八股文！",
+      "source": "小林coding",
+      "lastmod": "2026-04-14T16:00:00.000Z",
+      "references": [
+        {
+          "label": "小林coding · 4.8 SYN 报文什么情况下会被丢弃？",
+          "url": "https://www.xiaolincoding.com/network/3_tcp/syn_drop.html",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "xiaolin-network-3_tcp-challenge_ack",
+      "track": "计算机基础",
+      "category": "计算机网络（图解）",
+      "title": "4.9 已建立连接的TCP，收到SYN会发生什么？",
+      "difficulty": "进阶",
+      "focus": "图解计算机基础，覆盖 Java 后端面试，让天下没有难懂的八股文！",
+      "source": "小林coding",
+      "lastmod": "2026-04-14T16:00:00.000Z",
+      "references": [
+        {
+          "label": "小林coding · 4.9 已建立连接的TCP，收到SYN会发生什么？",
+          "url": "https://www.xiaolincoding.com/network/3_tcp/challenge_ack.html",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
       "id": "xiaolin-network-3_tcp-out_of_order_fin",
       "track": "计算机基础",
       "category": "计算机网络（图解）",
@@ -3313,23 +3454,6 @@
       ]
     },
     {
-      "id": "xiaolin-network-3_tcp-tcp_feature",
-      "track": "计算机基础",
-      "category": "计算机网络（图解）",
-      "title": "4.2 TCP 重传、滑动窗口、流量控制、拥塞控制",
-      "difficulty": "进阶",
-      "focus": "图解计算机基础，覆盖 Java 后端面试，让天下没有难懂的八股文！",
-      "source": "小林coding",
-      "lastmod": "2022-09-06T16:00:00.000Z",
-      "references": [
-        {
-          "label": "小林coding · 4.2 TCP 重传、滑动窗口、流量控制、拥塞控制",
-          "url": "https://www.xiaolincoding.com/network/3_tcp/tcp_feature.html",
-          "type": "tutorial"
-        }
-      ]
-    },
-    {
       "id": "xiaolin-network-3_tcp-tcp_no_listen",
       "track": "计算机基础",
       "category": "计算机网络（图解）",
@@ -3410,125 +3534,6 @@
         {
           "label": "小林coding · 4.24 TCP 序列号和确认号是如何变化的？",
           "url": "https://www.xiaolincoding.com/network/3_tcp/tcp_seq_ack.html",
-          "type": "tutorial"
-        }
-      ]
-    },
-    {
-      "id": "xiaolin-network-3_tcp-tcp_tcpdump",
-      "track": "计算机基础",
-      "category": "计算机网络（图解）",
-      "title": "4.3 TCP 实战抓包分析",
-      "difficulty": "进阶",
-      "focus": "图解计算机基础，覆盖 Java 后端面试，让天下没有难懂的八股文！",
-      "source": "小林coding",
-      "lastmod": "2023-01-04T16:00:00.000Z",
-      "references": [
-        {
-          "label": "小林coding · 4.3 TCP 实战抓包分析",
-          "url": "https://www.xiaolincoding.com/network/3_tcp/tcp_tcpdump.html",
-          "type": "tutorial"
-        }
-      ]
-    },
-    {
-      "id": "xiaolin-network-3_tcp-tcp_queue",
-      "track": "计算机基础",
-      "category": "计算机网络（图解）",
-      "title": "4.4 TCP 半连接队列和全连接队列",
-      "difficulty": "进阶",
-      "focus": "图解计算机基础，覆盖 Java 后端面试，让天下没有难懂的八股文！",
-      "source": "小林coding",
-      "lastmod": "2026-04-13T16:00:00.000Z",
-      "references": [
-        {
-          "label": "小林coding · 4.4 TCP 半连接队列和全连接队列",
-          "url": "https://www.xiaolincoding.com/network/3_tcp/tcp_queue.html",
-          "type": "tutorial"
-        }
-      ]
-    },
-    {
-      "id": "xiaolin-network-3_tcp-tcp_optimize",
-      "track": "计算机基础",
-      "category": "计算机网络（图解）",
-      "title": "4.5 如何优化 TCP?",
-      "difficulty": "进阶",
-      "focus": "图解计算机基础，覆盖 Java 后端面试，让天下没有难懂的八股文！",
-      "source": "小林coding",
-      "lastmod": "2026-04-13T16:00:00.000Z",
-      "references": [
-        {
-          "label": "小林coding · 4.5 如何优化 TCP?",
-          "url": "https://www.xiaolincoding.com/network/3_tcp/tcp_optimize.html",
-          "type": "tutorial"
-        }
-      ]
-    },
-    {
-      "id": "xiaolin-network-3_tcp-tcp_stream",
-      "track": "计算机基础",
-      "category": "计算机网络（图解）",
-      "title": "4.6 如何理解是 TCP 面向字节流协议？",
-      "difficulty": "进阶",
-      "focus": "图解计算机基础，覆盖 Java 后端面试，让天下没有难懂的八股文！",
-      "source": "小林coding",
-      "lastmod": "2026-04-13T16:00:00.000Z",
-      "references": [
-        {
-          "label": "小林coding · 4.6 如何理解是 TCP 面向字节流协议？",
-          "url": "https://www.xiaolincoding.com/network/3_tcp/tcp_stream.html",
-          "type": "tutorial"
-        }
-      ]
-    },
-    {
-      "id": "xiaolin-network-3_tcp-isn_deff",
-      "track": "计算机基础",
-      "category": "计算机网络（图解）",
-      "title": "4.7 为什么 TCP 每次建立连接时，初始化序列号都要不一样呢？",
-      "difficulty": "进阶",
-      "focus": "图解计算机基础，覆盖 Java 后端面试，让天下没有难懂的八股文！",
-      "source": "小林coding",
-      "lastmod": "2023-10-20T16:00:00.000Z",
-      "references": [
-        {
-          "label": "小林coding · 4.7 为什么 TCP 每次建立连接时，初始化序列号都要不一样呢？",
-          "url": "https://www.xiaolincoding.com/network/3_tcp/isn_deff.html",
-          "type": "tutorial"
-        }
-      ]
-    },
-    {
-      "id": "xiaolin-network-3_tcp-syn_drop",
-      "track": "计算机基础",
-      "category": "计算机网络（图解）",
-      "title": "4.8 SYN 报文什么情况下会被丢弃？",
-      "difficulty": "进阶",
-      "focus": "图解计算机基础，覆盖 Java 后端面试，让天下没有难懂的八股文！",
-      "source": "小林coding",
-      "lastmod": "2026-04-14T16:00:00.000Z",
-      "references": [
-        {
-          "label": "小林coding · 4.8 SYN 报文什么情况下会被丢弃？",
-          "url": "https://www.xiaolincoding.com/network/3_tcp/syn_drop.html",
-          "type": "tutorial"
-        }
-      ]
-    },
-    {
-      "id": "xiaolin-network-3_tcp-challenge_ack",
-      "track": "计算机基础",
-      "category": "计算机网络（图解）",
-      "title": "4.9 已建立连接的TCP，收到SYN会发生什么？",
-      "difficulty": "进阶",
-      "focus": "图解计算机基础，覆盖 Java 后端面试，让天下没有难懂的八股文！",
-      "source": "小林coding",
-      "lastmod": "2026-04-14T16:00:00.000Z",
-      "references": [
-        {
-          "label": "小林coding · 4.9 已建立连接的TCP，收到SYN会发生什么？",
-          "url": "https://www.xiaolincoding.com/network/3_tcp/challenge_ack.html",
           "type": "tutorial"
         }
       ]
@@ -3619,23 +3624,6 @@
       ]
     },
     {
-      "id": "xiaolin-backend_interview-internet_medium-4399",
-      "track": "面试专题",
-      "category": "大厂面经",
-      "title": "4399 Java 面试",
-      "difficulty": "高级",
-      "focus": "4399游戏2025届校招Java后端开发面试真题及薪资待遇，包含相关技术知识点解析。",
-      "source": "小林coding",
-      "lastmod": "2026-07-08T16:00:00.000Z",
-      "references": [
-        {
-          "label": "小林coding · 4399 Java 面试",
-          "url": "https://www.xiaolincoding.com/backend_interview/internet_medium/4399.html",
-          "type": "tutorial"
-        }
-      ]
-    },
-    {
       "id": "xiaolin-backend_interview-internet_medium-58",
       "track": "面试专题",
       "category": "大厂面经",
@@ -3648,6 +3636,23 @@
         {
           "label": "小林coding · 58同城 Java 面试",
           "url": "https://www.xiaolincoding.com/backend_interview/internet_medium/58.html",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "xiaolin-backend_interview-internet_medium-4399",
+      "track": "面试专题",
+      "category": "大厂面经",
+      "title": "4399 Java 面试",
+      "difficulty": "高级",
+      "focus": "4399游戏2025届校招Java后端开发面试真题及薪资待遇，包含相关技术知识点解析。",
+      "source": "小林coding",
+      "lastmod": "2026-07-08T16:00:00.000Z",
+      "references": [
+        {
+          "label": "小林coding · 4399 Java 面试",
+          "url": "https://www.xiaolincoding.com/backend_interview/internet_medium/4399.html",
           "type": "tutorial"
         }
       ]
@@ -7541,6 +7546,2328 @@
         {
           "label": "JavaGuide · Elasticsearch常见面试题总结(付费)",
           "url": "https://javaguide.cn/database/elasticsearch/elasticsearch-questions-01.html",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch1-观察空间与动作空间模型与世界的接口",
+      "track": "AI Agent",
+      "category": "第1章 · AI Agent 入门",
+      "title": "观察空间与动作空间：模型与世界的接口",
+      "difficulty": "入门",
+      "focus": "观察通道与动作接口共同构成了 Agent 与外部环境之间的边界 。Harness 把环境返回的观察转换为模型能够处理的上下文，再把模型选择的行动转换为对环境的工具调用。没有通过观察…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 0,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第1章 · 观察空间与动作空间：模型与世界的接口",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter1/#观察空间与动作空间模型与世界的接口",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch1-工具agent-的手脚",
+      "track": "AI Agent",
+      "category": "第1章 · AI Agent 入门",
+      "title": "工具：Agent 的手脚",
+      "difficulty": "入门",
+      "focus": "工具是 Agent 与外部世界交互的桥梁：感知类工具承载环境到 Agent 的观察，执行类工具承载 Agent 到环境的行动。没有工具，Agent 只能“纸上谈兵”；有了工具，它才…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 1,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第1章 · 工具：Agent 的手脚",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter1/#工具agent-的手脚",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch1-llmagent-的大脑",
+      "track": "AI Agent",
+      "category": "第1章 · AI Agent 入门",
+      "title": "LLM：Agent 的大脑",
+      "difficulty": "入门",
+      "focus": "大语言模型（Large Language Model, LLM）是 Agent 的决策核心。收到用户的请求后，它需要先解析真实意图（用户说的往往不是他真正想要的），再将模糊或复杂的…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 2,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第1章 · LLM：Agent 的大脑",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter1/#llmagent-的大脑",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch1-上下文agent-的眼睛",
+      "track": "AI Agent",
+      "category": "第1章 · AI Agent 入门",
+      "title": "上下文：Agent 的眼睛",
+      "difficulty": "入门",
+      "focus": "上下文是 Agent 在每个决策点能看到的全部信息。就像一个人在做决策时需要看到桌上摊开的所有资料——任务说明、参考手册、之前的沟通记录、最新的数据——Agent 的上下文窗口就是…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 3,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第1章 · 上下文：Agent 的眼睛",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter1/#上下文agent-的眼睛",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch1-react-循环",
+      "track": "AI Agent",
+      "category": "第1章 · AI Agent 入门",
+      "title": "ReAct 循环",
+      "difficulty": "入门",
+      "focus": "了解了 Agent 的三大组件后，一个自然的问题是：它们如何协同工作？ReAct 循环就是将 LLM、上下文和工具串联起来的核心机制——让我们看看一个 Agent 是如何一步步思考…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 4,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第1章 · ReAct 循环",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter1/#react-循环",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch1-从提示工程到-loop-工程工程范式的演进",
+      "track": "AI Agent",
+      "category": "第1章 · AI Agent 入门",
+      "title": "从提示工程到 Loop 工程：工程范式的演进",
+      "difficulty": "入门",
+      "focus": "回顾 AI 应用工程的发展，可以看到一条清晰的演进弧线：",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 5,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第1章 · 从提示工程到 Loop 工程：工程范式的演进",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter1/#从提示工程到-loop-工程工程范式的演进",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch1-构建有效-agent-的核心原则",
+      "track": "AI Agent",
+      "category": "第1章 · AI Agent 入门",
+      "title": "构建有效 Agent 的核心原则",
+      "difficulty": "入门",
+      "focus": "根据 Anthropic 的经验，成功的 Agent 系统遵循三个核心原则 5 。",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 6,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第1章 · 构建有效 Agent 的核心原则",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter1/#构建有效-agent-的核心原则",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch1-如何选择模型",
+      "track": "AI Agent",
+      "category": "第1章 · AI Agent 入门",
+      "title": "如何选择模型",
+      "difficulty": "入门",
+      "focus": "在讨论编排模式之前，先回答一个实操问题：应该选什么样的模型来驱动 Agent？",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 7,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第1章 · 如何选择模型",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter1/#如何选择模型",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch1-编排模式工作流与自主",
+      "track": "AI Agent",
+      "category": "第1章 · AI Agent 入门",
+      "title": "编排模式：工作流与自主",
+      "difficulty": "入门",
+      "focus": "编排模式是 Harness 中“上下文与工具”层面的组织方式——它决定了上下文如何在 LLM 调用之间流动、工具如何被调度，以及 Agent 的执行路径是预先设定还是动态生成。Ag…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 8,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第1章 · 编排模式：工作流与自主",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter1/#编排模式工作流与自主",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch1-护栏与安全性",
+      "track": "AI Agent",
+      "category": "第1章 · AI Agent 入门",
+      "title": "护栏与安全性",
+      "difficulty": "入门",
+      "focus": "护栏 （Guardrails）构成了保障 Agent 行为安全可控的分层防线，可用于管理数据隐私风险（例如防止系统提示泄露）或声誉风险（例如确保模型行为与品牌形象一致）。实践中可以…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 9,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第1章 · 护栏与安全性",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter1/#护栏与安全性",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch1-harness-五要素与构建部分的对应",
+      "track": "AI Agent",
+      "category": "第1章 · AI Agent 入门",
+      "title": "Harness 五要素与「构建」部分的对应",
+      "difficulty": "入门",
+      "focus": "先说清楚两个公式的关系，以免读者记住两套骨架。 全书的结构骨架只有一个，就是引言和后记反复使用的 Agent = LLM + 上下文 + 工具 ：第二至六章讨论构建，第七至九章讨论…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 10,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第1章 · Harness 五要素与「构建」部分的对应",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter1/#harness-五要素与构建部分的对应",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch1-贯穿全书的设计模式",
+      "track": "AI Agent",
+      "category": "第1章 · AI Agent 入门",
+      "title": "贯穿全书的设计模式",
+      "difficulty": "入门",
+      "focus": "后面章节会反复用到同一批设计模式，因此在这里一次性命名并给出规范定义。",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 11,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第1章 · 贯穿全书的设计模式",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter1/#贯穿全书的设计模式",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch2-上下文决定-agent-能力上限的关键",
+      "track": "AI Agent",
+      "category": "第2章 · 上下文工程",
+      "title": "上下文：决定 Agent 能力上限的关键",
+      "difficulty": "进阶",
+      "focus": "大语言模型在标准测试中成绩亮眼，但到了实际业务场景中却常常让人失望。这是因为模型要执行具体任务，需要通用模型根本不知道的背景信息（如产品架构、业务规则、内部约定）。",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 0,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第2章 · 上下文：决定 Agent 能力上限的关键",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter2/#上下文决定-agent-能力上限的关键",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch2-消息的四种角色",
+      "track": "AI Agent",
+      "category": "第2章 · 上下文工程",
+      "title": "消息的四种角色",
+      "difficulty": "进阶",
+      "focus": "大模型 API 的核心是一个 消息列表 （messages），列表中的每条消息都有一个 角色 （role）标识，模型根据角色来理解每条消息的含义和来源：",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 1,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第2章 · 消息的四种角色",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter2/#消息的四种角色",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch2-单轮对话最简单的-api-调用",
+      "track": "AI Agent",
+      "category": "第2章 · 上下文工程",
+      "title": "单轮对话：最简单的 API 调用",
+      "difficulty": "进阶",
+      "focus": "我们先看一个不涉及工具调用的最简单场景——用户问 “Hello, who are you?”（这里用本地部署的 Qwen3-0.6B 小模型作为示例）：",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 2,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第2章 · 单轮对话：最简单的 API 调用",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter2/#单轮对话最简单的-api-调用",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch2-带工具调用的多轮交互agent-的核心循环",
+      "track": "AI Agent",
+      "category": "第2章 · 上下文工程",
+      "title": "带工具调用的多轮交互：Agent 的核心循环",
+      "difficulty": "进阶",
+      "focus": "真正的 Agent 场景远比单轮问答复杂。当用户问 “What’s the current time and weather in Vancouver?” 时，模型无法凭自身知识回…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 3,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第2章 · 带工具调用的多轮交互：Agent 的核心循环",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter2/#带工具调用的多轮交互agent-的核心循环",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch2-用代码实现-agent-的核心循环",
+      "track": "AI Agent",
+      "category": "第2章 · 上下文工程",
+      "title": "用代码实现 Agent 的核心循环",
+      "difficulty": "进阶",
+      "focus": "理解了 JSON 结构之后，让我们用 Python 代码把上面的交互过程串起来。以下是一个最简的 Agent 实现——核心就是一个 while 循环。本章刻意保留这段完整 API …",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 4,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第2章 · 用代码实现 Agent 的核心循环",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter2/#用代码实现-agent-的核心循环",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch2-从-api-视角看上下文的构成",
+      "track": "AI Agent",
+      "category": "第2章 · 上下文工程",
+      "title": "从 API 视角看上下文的构成",
+      "difficulty": "进阶",
+      "focus": "通过上面的例子，我们可以清晰地看到 Agent 每次调用模型时，上下文的完整构成：",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 5,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第2章 · 从 API 视角看上下文的构成",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter2/#从-api-视角看上下文的构成",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch2-从-api-消息到模型-tokenchat-template",
+      "track": "AI Agent",
+      "category": "第2章 · 上下文工程",
+      "title": "从 API 消息到模型 Token：Chat Template",
+      "difficulty": "进阶",
+      "focus": "Chat Template 是一项 贯穿全书的基础机制 ：它不只关系到 KV Cache，还决定了多轮工具调用、思维链保留、状态栏注入等诸多机制能否正确工作，因此值得单独讲清楚。注…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 6,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第2章 · 从 API 消息到模型 Token：Chat Template",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter2/#从-api-消息到模型-tokenchat-template",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch2-kv-cache-的原理与约束",
+      "track": "AI Agent",
+      "category": "第2章 · 上下文工程",
+      "title": "KV Cache 的原理与约束",
+      "difficulty": "进阶",
+      "focus": "要理解 KV Cache 的价值，先看看没有它时会发生什么。假设一个 Agent 在进行第 6 轮对话，上下文已经累积了 2000 个 token。在没有缓存的情况下，模型每生成一…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 7,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第2章 · KV Cache 的原理与约束",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter2/#kv-cache-的原理与约束",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch2-kv-cache-与-prompt-cache两个层级的缓存",
+      "track": "AI Agent",
+      "category": "第2章 · 上下文工程",
+      "title": "KV Cache 与 Prompt Cache：两个层级的缓存",
+      "difficulty": "进阶",
+      "focus": "在继续之前，需要区分两个容易混淆的概念。 KV Cache 是模型内部的机制——在一次推理过程中，缓存已计算的 token 的键值对，避免重复计算。 Prompt Cache 则是…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 8,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第2章 · KV Cache 与 Prompt Cache：两个层级的缓存",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter2/#kv-cache-与-prompt-cache两个层级的缓存",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch2-缓存作为架构约束",
+      "track": "AI Agent",
+      "category": "第2章 · 上下文工程",
+      "title": "缓存作为架构约束",
+      "difficulty": "进阶",
+      "focus": "在生产级的 Agent 系统中，缓存不仅仅是性能优化手段——它是一个 架构约束 ，决定了系统中许多看似无关的设计决策。",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 9,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第2章 · 缓存作为架构约束",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter2/#缓存作为架构约束",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch2-kv-cache-未必是一次性的可编辑可组合的笔记",
+      "track": "AI Agent",
+      "category": "第2章 · 上下文工程",
+      "title": "KV Cache 未必是一次性的：可编辑、可组合的“笔记”",
+      "difficulty": "进阶",
+      "focus": "（以下是一段来自研究前沿的延伸阅读，属于“深水区选读”，初读可以跳过、直接跳到下一小节，不影响对本章后续内容的理解；前面的三条实践结论才是必须掌握的地基。）",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 10,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第2章 · KV Cache 未必是一次性的：可编辑、可组合的“笔记”",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter2/#kv-cache-未必是一次性的可编辑可组合的笔记",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch2-承上启下从缓存机制到上下文内容的设计",
+      "track": "AI Agent",
+      "category": "第2章 · 上下文工程",
+      "title": "承上启下：从缓存机制到上下文内容的设计",
+      "difficulty": "进阶",
+      "focus": "理解了缓存机制后，接下来的问题自然变成：既然我们知道了上下文是怎么被处理和缓存的，那该如何设计送进去的内容本身？接下来几节围绕“上下文里到底放什么、怎么组织”展开，可以分为三条相对…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 11,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第2章 · 承上启下：从缓存机制到上下文内容的设计",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter2/#承上启下从缓存机制到上下文内容的设计",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch2-提示工程优化系统提示词",
+      "track": "AI Agent",
+      "category": "第2章 · 上下文工程",
+      "title": "提示工程：优化系统提示词",
+      "difficulty": "进阶",
+      "focus": "提示工程（Prompt Engineering）的核心对象是 系统提示词（System Prompt） ——API 消息列表中那条 role: \"system\" 的消息。它是 Ag…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 12,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第2章 · 提示工程：优化系统提示词",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter2/#提示工程优化系统提示词",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch2-动态提示词与-agent-skills",
+      "track": "AI Agent",
+      "category": "第2章 · 上下文工程",
+      "title": "动态提示词与 Agent Skills",
+      "difficulty": "进阶",
+      "focus": "随着 Agent 覆盖的业务场景越来越多，系统提示词会不断膨胀——客服场景的退款规则、编程场景的代码规范、文档场景的格式要求……全部塞进一个提示词，会带来两个问题：",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 13,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第2章 · 动态提示词与 Agent Skills",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter2/#动态提示词与-agent-skills",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch2-agent-状态栏通过元信息增强-agent-轨迹管理",
+      "track": "AI Agent",
+      "category": "第2章 · 上下文工程",
+      "title": "Agent 状态栏：通过元信息增强 Agent 轨迹管理",
+      "difficulty": "进阶",
+      "focus": "上一节的 Skills 解决的是“Agent 具备哪些可按需加载的能力”；本节讨论另一个独立问题：如何让 Agent 随时看到任务进度、环境变化和工具调用计数等 运行时状态 。提示…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 14,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第2章 · Agent 状态栏：通过元信息增强 Agent 轨迹管理",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter2/#agent-状态栏通过元信息增强-agent-轨迹管理",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch2-上下文压缩策略",
+      "track": "AI Agent",
+      "category": "第2章 · 上下文工程",
+      "title": "上下文压缩策略",
+      "difficulty": "进阶",
+      "focus": "前面几节讨论了如何往上下文里放内容——提示工程决定写什么，Skills 决定按需加载什么，Agent 状态栏决定注入什么元信息。但随着多轮交互的深入，上下文会不断膨胀。本节讨论的是…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 15,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第2章 · 上下文压缩策略",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter2/#上下文压缩策略",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch3-记忆能力的评估三层次框架",
+      "track": "AI Agent",
+      "category": "第3章 · 用户记忆和知识库",
+      "title": "记忆能力的评估：三层次框架",
+      "difficulty": "进阶",
+      "focus": "在动手设计记忆系统之前，先要回答一个问题：什么样的记忆系统算 “好”？先确立评估标准，后面讨论各种设计方案时才有统一的标尺。学术界已发布若干公开基准，其中 LoCoMo （Long…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 0,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第3章 · 记忆能力的评估：三层次框架",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter3/#记忆能力的评估三层次框架",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch3-记忆的层次结构",
+      "track": "AI Agent",
+      "category": "第3章 · 用户记忆和知识库",
+      "title": "记忆的层次结构",
+      "difficulty": "进阶",
+      "focus": "有了评估标准，就可以进入具体设计。记忆系统的设计可以拆成三个独立的维度—— 放哪里、怎么存、存什么 。本节先回答 “放哪里”。",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 1,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第3章 · 记忆的层次结构",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter3/#记忆的层次结构",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch3-用户记忆的四种存储格式",
+      "track": "AI Agent",
+      "category": "第3章 · 用户记忆和知识库",
+      "title": "用户记忆的四种存储格式",
+      "difficulty": "进阶",
+      "focus": "解决了“放哪里”和“怎么评估”，下一个问题是“怎么存”——同一条用户信息，可以用不同的粒度和结构来表示。下面四种渐进式的存储格式，代表了记忆粒度和结构复杂度的递进。",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 2,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第3章 · 用户记忆的四种存储格式",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter3/#用户记忆的四种存储格式",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch3-进阶知识表示形态可执行代码",
+      "track": "AI Agent",
+      "category": "第3章 · 用户记忆和知识库",
+      "title": "进阶知识表示形态：可执行代码",
+      "difficulty": "进阶",
+      "focus": "前面四种格式本质上都是文本：擅长召回单条事实，却要把聚合、冲突检测和约束执行交给 LLM“心算”。User as Code 1 把用户状态改成带类型的可执行对象，并把规则写成普通函…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 3,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第3章 · 进阶知识表示形态：可执行代码",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter3/#进阶知识表示形态可执行代码",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch3-用户记忆的认知科学基础",
+      "track": "AI Agent",
+      "category": "第3章 · 用户记忆和知识库",
+      "title": "用户记忆的认知科学基础",
+      "difficulty": "进阶",
+      "focus": "我们已经看到了四种具体的记忆策略，现在用认知科学的框架来补充另一个维度的理解——记忆内容的类型。",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 4,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第3章 · 用户记忆的认知科学基础",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter3/#用户记忆的认知科学基础",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch3-记忆框架案例",
+      "track": "AI Agent",
+      "category": "第3章 · 用户记忆和知识库",
+      "title": "记忆框架案例",
+      "difficulty": "进阶",
+      "focus": "前面讨论的存储格式和记忆类型，最终都要落到工程实现。开源社区已经出现多个专门的记忆管理框架，这里以 Mem0 和 Memobase 为例，看看两种不同的设计理念如何取舍。",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 5,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第3章 · 记忆框架案例",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter3/#记忆框架案例",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch3-记忆压缩与整理机制",
+      "track": "AI Agent",
+      "category": "第3章 · 用户记忆和知识库",
+      "title": "记忆压缩与整理机制",
+      "difficulty": "进阶",
+      "focus": "随着交互的持续进行，记忆系统面临存储空间和检索效率的双重挑战。简单的累积式存储会导致记忆爆炸，不仅消耗存储空间，还降低检索准确性。",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 6,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第3章 · 记忆压缩与整理机制",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter3/#记忆压缩与整理机制",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch3-隐私保护日志脱敏",
+      "track": "AI Agent",
+      "category": "第3章 · 用户记忆和知识库",
+      "title": "隐私保护：日志脱敏",
+      "difficulty": "进阶",
+      "focus": "在构建用户记忆系统时，核心挑战是让 Agent 既能利用用户信息提供个性化服务，又不让敏感数据暴露在 LLM 上下文和系统日志中。",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 7,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第3章 · 隐私保护：日志脱敏",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter3/#隐私保护日志脱敏",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch3-文档分块chunking",
+      "track": "AI Agent",
+      "category": "第3章 · 用户记忆和知识库",
+      "title": "文档分块（Chunking）",
+      "difficulty": "进阶",
+      "focus": "图3-5 展示的是 RAG 在查询时的核心流程：检索、增强、生成。但在能够检索之前，还有一步不可或缺的离线预处理—— 分块（Chunking） ：把长文档切成适合独立检索的片段（c…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 8,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第3章 · 文档分块（Chunking）",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter3/#文档分块chunking",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch3-稠密嵌入从词汇关联到语义理解",
+      "track": "AI Agent",
+      "category": "第3章 · 用户记忆和知识库",
+      "title": "稠密嵌入：从词汇关联到语义理解",
+      "difficulty": "进阶",
+      "focus": "什么是嵌入（Embedding）？ 计算机只能处理数字，不能直接理解“苹果”和“橙子”的含义。嵌入的思路是：把每个词或句子转化成一串数字（称为“向量”，比如 [0.2, -0.5,…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 9,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第3章 · 稠密嵌入：从词汇关联到语义理解",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter3/#稠密嵌入从词汇关联到语义理解",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch3-稀疏嵌入精确匹配的关键词检索",
+      "track": "AI Agent",
+      "category": "第3章 · 用户记忆和知识库",
+      "title": "稀疏嵌入：精确匹配的关键词检索",
+      "difficulty": "进阶",
+      "focus": "与捕捉语义相似性的稠密嵌入不同，稀疏嵌入（Sparse Embedding）根植于传统信息检索，核心是精确的关键词匹配。它将文档表示为极高维度的向量，绝大多数维度为零，只有与文档中…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 10,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第3章 · 稀疏嵌入：精确匹配的关键词检索",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter3/#稀疏嵌入精确匹配的关键词检索",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch3-混合检索两全其美的艺术",
+      "track": "AI Agent",
+      "category": "第3章 · 用户记忆和知识库",
+      "title": "混合检索：两全其美的艺术",
+      "difficulty": "进阶",
+      "focus": "两种方法各有盲区：稠密检索懂语义但可能漏掉关键词（搜“HTTP-403”可能返回“服务器错误”的泛泛讨论），稀疏检索精确匹配但读不懂同义词（搜“kitty”找不到只写了“cat”的…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 11,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第3章 · 混合检索：两全其美的艺术",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter3/#混合检索两全其美的艺术",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch3-结构化索引从信息检索到知识建模",
+      "track": "AI Agent",
+      "category": "第3章 · 用户记忆和知识库",
+      "title": "结构化索引：从信息检索到知识建模",
+      "difficulty": "进阶",
+      "focus": "结构化索引的思路是：索引之前先用 LLM 把知识整理一遍——归纳、抽象、建立关联。多花一些计算资源，换取更好的检索质量。业界目前主要有两条路：树状层次（RAPTOR）和实体关系图（…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 12,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第3章 · 结构化索引：从信息检索到知识建模",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter3/#结构化索引从信息检索到知识建模",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch3-文件系统范式用目录结构组织知识",
+      "track": "AI Agent",
+      "category": "第3章 · 用户记忆和知识库",
+      "title": "文件系统范式：用目录结构组织知识",
+      "difficulty": "进阶",
+      "focus": "RAPTOR 和 GraphRAG 代表了学术界对知识组织的探索，而字节跳动火山引擎开源的 OpenViking 则提出了第三种哲学： 文件系统范式 。它不将上下文视为扁平的向量碎…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 13,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第3章 · 文件系统范式：用目录结构组织知识",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter3/#文件系统范式用目录结构组织知识",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch3-知识应该如何更新",
+      "track": "AI Agent",
+      "category": "第3章 · 用户记忆和知识库",
+      "title": "知识应该如何更新",
+      "difficulty": "进阶",
+      "focus": "前面几节解决的是“知识怎样表示、组织和检索”，但一个上线运行的用户记忆或共享知识库还会持续收到新信息。只更新不整理，内容会越积越乱；只做定期重写，新信息又无法及时生效。因此，完整的…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 14,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第3章 · 知识应该如何更新",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter3/#知识应该如何更新",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch3-智能体化-rag将知识检索工具化的范式转变",
+      "track": "AI Agent",
+      "category": "第3章 · 用户记忆和知识库",
+      "title": "智能体化 RAG：将知识检索工具化的范式转变",
+      "difficulty": "进阶",
+      "focus": "为 Agent 构建了强大的知识库之后，下一个核心问题是：Agent 如何才能智能地、自主地利用这个知识库？传统的 RAG 流程通常是一个简单直接的单向数据流：用户的查询直接用于检…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 15,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第3章 · 智能体化 RAG：将知识检索工具化的范式转变",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter3/#智能体化-rag将知识检索工具化的范式转变",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch3-rag-技巧上下文感知检索",
+      "track": "AI Agent",
+      "category": "第3章 · 用户记忆和知识库",
+      "title": "RAG 技巧：上下文感知检索",
+      "difficulty": "进阶",
+      "focus": "即使拥有了先进的智能体化 RAG 框架，传统文档分块方法本身存在的根本性缺陷，仍然是限制 RAG 系统性能的瓶颈。这正是“文档分块”一节埋下的伏笔：标准分块方法无论是固定大小切分还…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 16,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第3章 · RAG 技巧：上下文感知检索",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter3/#rag-技巧上下文感知检索",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch3-从数据集中提取深度知识从信息检索到知识发现",
+      "track": "AI Agent",
+      "category": "第3章 · 用户记忆和知识库",
+      "title": "从数据集中提取深度知识：从信息检索到知识发现",
+      "difficulty": "进阶",
+      "focus": "到目前为止，我们讨论的 RAG 技术都基于一个前提：知识以非结构化或半结构化的文档形式存在。然而在许多专业领域，知识更多以隐性、分散的形式蕴含在海量结构化案例数据中。例如在司法领域…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 17,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第3章 · 从数据集中提取深度知识：从信息检索到知识发现",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter3/#从数据集中提取深度知识从信息检索到知识发现",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch3-前沿探索多模态记忆",
+      "track": "AI Agent",
+      "category": "第3章 · 用户记忆和知识库",
+      "title": "前沿探索：多模态记忆",
+      "difficulty": "进阶",
+      "focus": "一张脸的模样、一个人的嗓音等很难用文字描述，本章前面的文本记忆机制是无法存储的。如何跨越上下文的边界，存储此类多模态记忆，仍处于学术界前沿。",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 18,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第3章 · 前沿探索：多模态记忆",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter3/#前沿探索多模态记忆",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch4-工具的分类",
+      "track": "AI Agent",
+      "category": "第4章 · 工具",
+      "title": "工具的分类",
+      "difficulty": "进阶",
+      "focus": "第一章介绍了 Agent 的五类工具（感知、执行、协作、事件触发、用户沟通）。为了帮助理解这五类工具的设计差异，可以从两个特征来审视它们： 调用方向 （这次交互由谁发起）和 作用对…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 0,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第4章 · 工具的分类",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter4/#工具的分类",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch4-工具设计的通用原则",
+      "track": "AI Agent",
+      "category": "第4章 · 工具",
+      "title": "工具设计的通用原则",
+      "difficulty": "进阶",
+      "focus": "工具设计的早期形态是直接的 API 封装——把每个 API 端点包成一个工具，粒度过细，Agent 往往要协调好几个工具才能完成一个目标。今天更成熟的思路被称为 ACI （Agen…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 1,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第4章 · 工具设计的通用原则",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter4/#工具设计的通用原则",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch4-工具生态mcp-与-skill-hub",
+      "track": "AI Agent",
+      "category": "第4章 · 工具",
+      "title": "工具生态：MCP 与 Skill Hub",
+      "difficulty": "进阶",
+      "focus": "在实际构建 Agent 工具集时，一个现实的挑战是：每个 Agent 框架定义工具的方式都不一样——OpenAI 的 function calling 格式、Anthropic 的…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 2,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第4章 · 工具生态：MCP 与 Skill Hub",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter4/#工具生态mcp-与-skill-hub",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch4-工具太多怎么办层次化组织与主动工具发现",
+      "track": "AI Agent",
+      "category": "第4章 · 工具",
+      "title": "工具太多怎么办：层次化组织与主动工具发现",
+      "difficulty": "进阶",
+      "focus": "“能力的表达形式”一节问的是一项能力该做成什么形态，这一节问的是另一件事： 不管做成什么形态，一次该让模型看见多少？ 当可用工具从十几个增长到成百上千，工具库本身就成了一个需要设计…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 3,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第4章 · 工具太多怎么办：层次化组织与主动工具发现",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter4/#工具太多怎么办层次化组织与主动工具发现",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch4-感知工具",
+      "track": "AI Agent",
+      "category": "第4章 · 工具",
+      "title": "感知工具",
+      "difficulty": "进阶",
+      "focus": "感知工具是 Agent 获取外部信息的主要渠道，设计上需要在粒度、组织方式和输出格式等多个维度精心权衡。",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 4,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第4章 · 感知工具",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter4/#感知工具",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch4-执行工具",
+      "track": "AI Agent",
+      "category": "第4章 · 工具",
+      "title": "执行工具",
+      "difficulty": "进阶",
+      "focus": "执行工具的错误代价可能极高：误删的文件无法恢复，错误的系统命令可能导致服务中断，不当的 API 调用可能产生真实的财务损失。因此，这类工具的设计需要在 能力开放 和 安全约束 之间…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 5,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第4章 · 执行工具",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter4/#执行工具",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch4-协作工具",
+      "track": "AI Agent",
+      "category": "第4章 · 工具",
+      "title": "协作工具",
+      "difficulty": "进阶",
+      "focus": "当任务超出单个 Agent 的能力边界时，协作工具可以让它把子任务委托给其他 Agent 或人类，再整合各方的结果。",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 6,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第4章 · 协作工具",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter4/#协作工具",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch5-coding-是-agent-的基础能力",
+      "track": "AI Agent",
+      "category": "第5章 · Coding Agent 与通用 Agent",
+      "title": "Coding 是 Agent 的基础能力",
+      "difficulty": "进阶",
+      "focus": "代码生成不是少数专门化 Agent 的专利，而是每个通用 Agent 都该具备的基础能力 。在当前 SOTA 模型的加持下，具备基本 coding 能力并不需要复杂的架构。",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 0,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第5章 · Coding 是 Agent 的基础能力",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter5/#coding-是-agent-的基础能力",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch5-案例从-manus-到-openclaw通用-agent-的-coding-内核",
+      "track": "AI Agent",
+      "category": "第5章 · Coding Agent 与通用 Agent",
+      "title": "案例：从 Manus 到 OpenClaw——通用 Agent 的 Coding 内核",
+      "difficulty": "进阶",
+      "focus": "以 Manus、OpenClaw 为代表的通用 Agent 产品，把 Deep Research（深度调研）、Computer Use（电脑操控）和 Coding（代码生成）三大能…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 1,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第5章 · 案例：从 Manus 到 OpenClaw——通用 Agent 的 Coding 内核",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter5/#案例从-manus-到-openclaw通用-agent-的-coding-内核",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch5-coding-agent-的整体流程",
+      "track": "AI Agent",
+      "category": "第5章 · Coding Agent 与通用 Agent",
+      "title": "Coding Agent 的整体流程",
+      "difficulty": "进阶",
+      "focus": "项目文档化。",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 2,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第5章 · Coding Agent 的整体流程",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter5/#coding-agent-的整体流程",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch5-harness-工程在-coding-agent-中的实践",
+      "track": "AI Agent",
+      "category": "第5章 · Coding Agent 与通用 Agent",
+      "title": "Harness 工程在 Coding Agent 中的实践",
+      "difficulty": "进阶",
+      "focus": "第一章引入了 Harness 工程的概念和 Agent = Model + Harness 的公式。这里的 Harness 包含了核心公式中的上下文和工具，以及约束、验证和纠正机制…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 3,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第5章 · Harness 工程在 Coding Agent 中的实践",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter5/#harness-工程在-coding-agent-中的实践",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch5-故障与错误恢复",
+      "track": "AI Agent",
+      "category": "第5章 · Coding Agent 与通用 Agent",
+      "title": "故障与错误恢复",
+      "difficulty": "进阶",
+      "focus": "上一节给出了 Harness 工程的原则与组件，本节深入其中最能拉开工程差距的一块—— 故障与错误恢复 。第一章的消融实验已经展示过问题的严重性：仅仅缺失一条工具结果反馈，就足以让…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 4,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第5章 · 故障与错误恢复",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter5/#故障与错误恢复",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch5-coding-agent-的实现技巧",
+      "track": "AI Agent",
+      "category": "第5章 · Coding Agent 与通用 Agent",
+      "title": "Coding Agent 的实现技巧",
+      "difficulty": "进阶",
+      "focus": "上面的工作流程是理想状态。要让它在实践中真正跑起来，还需要几个具体的实现技巧——在保证思考质量的前提下，把响应速度提上去、把上下文消耗降下来。它们是第二章、第四章讨论的通用 Age…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 5,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第5章 · Coding Agent 的实现技巧",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter5/#coding-agent-的实现技巧",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch5-coding-agent-中的搜索工具",
+      "track": "AI Agent",
+      "category": "第5章 · Coding Agent 与通用 Agent",
+      "title": "Coding Agent 中的搜索工具",
+      "difficulty": "进阶",
+      "focus": "在庞大的代码库中定位相关代码是 Coding Agent 工作的起点。图5-3 对比了几类互补搜索工具，说明成熟 Coding Agent 应如何根据任务性质选择检索方式。",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 6,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第5章 · Coding Agent 中的搜索工具",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter5/#coding-agent-中的搜索工具",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch5-coding-agent-中的文件编辑工具",
+      "track": "AI Agent",
+      "category": "第5章 · Coding Agent 与通用 Agent",
+      "title": "Coding Agent 中的文件编辑工具",
+      "difficulty": "进阶",
+      "focus": "文件编辑的难点不在于操作本身，而在于如何让 LLM 以高效又可靠的方式告诉系统 “改哪里、怎么改”。图5-4 对比了五种文件编辑方案，展示人类语言表达与机器精确执行之间的根本张力。",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 7,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第5章 · Coding Agent 中的文件编辑工具",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter5/#coding-agent-中的文件编辑工具",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch5-coding-agent-的安全",
+      "track": "AI Agent",
+      "category": "第5章 · Coding Agent 与通用 Agent",
+      "title": "Coding Agent 的安全",
+      "difficulty": "进阶",
+      "focus": "本节把 Coding Agent 的安全防线收拢为一条完整的叙事线：先勾勒 威胁模型 ——哪些风险最致命；再讨论 隔离兜底 ——沙盒的网络出口、文件系统与资源限额；然后是 执行期防…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 8,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第5章 · Coding Agent 的安全",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter5/#coding-agent-的安全",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch5-代码作为思考工具",
+      "track": "AI Agent",
+      "category": "第5章 · Coding Agent 与通用 Agent",
+      "title": "代码作为思考工具",
+      "difficulty": "进阶",
+      "focus": "LLM 在自然语言理解和生成上表现惊人，但在精确计算、符号操作或严格逻辑推导上却有根本短板。原因在于：模型思考本质上是概率性的、近似的，而数学和逻辑问题要求确定性的、精确的答案。用…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 9,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第5章 · 代码作为思考工具",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter5/#代码作为思考工具",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch5-代码作为业务规则的约束",
+      "track": "AI Agent",
+      "category": "第5章 · Coding Agent 与通用 Agent",
+      "title": "代码作为业务规则的约束",
+      "difficulty": "进阶",
+      "focus": "这一节是对前面 Harness 工程的直接回应。Harness 的核心原则之一是“约束：编码化而非文档化”——将规则从自然语言文档转化为可执行的代码，使其成为系统行为的强制约束而非…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 10,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第5章 · 代码作为业务规则的约束",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter5/#代码作为业务规则的约束",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch5-代码驱动的多媒体生成",
+      "track": "AI Agent",
+      "category": "第5章 · Coding Agent 与通用 Agent",
+      "title": "代码驱动的多媒体生成",
+      "difficulty": "进阶",
+      "focus": "许多复杂文档的创作本质上是结构化数据的组织和呈现。无论是演示文稿、技术报告还是交互式应用，底层都由代码定义——HTML 描述结构，CSS 控制样式，JavaScript 实现交互。…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 11,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第5章 · 代码驱动的多媒体生成",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter5/#代码驱动的多媒体生成",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch5-代码作为系统适配器",
+      "track": "AI Agent",
+      "category": "第5章 · Coding Agent 与通用 Agent",
+      "title": "代码作为系统适配器",
+      "difficulty": "进阶",
+      "focus": "前几节的代码大多产出“面向人”的东西——报告、幻灯片、界面。这一节的代码指向另一个方向： 连接机器与机器 。真实系统里，Agent 要打交道的外部服务常常没有现成 SDK，接口也未…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 12,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第5章 · 代码作为系统适配器",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter5/#代码作为系统适配器",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch5-代码作为生成式-ui",
+      "track": "AI Agent",
+      "category": "第5章 · Coding Agent 与通用 Agent",
+      "title": "代码作为生成式 UI",
+      "difficulty": "进阶",
+      "focus": "传统 Agent 系统主要依赖纯文本对话与用户交互。然而文本作为线性、单一的交互方式，在很多场景下效率低下。需要收集结构化信息时，反复问答让对话变得冗长；需要呈现复杂数据关系时，纯…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 13,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第5章 · 代码作为生成式 UI",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter5/#代码作为生成式-ui",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch5-代码创造代码agent-自举",
+      "track": "AI Agent",
+      "category": "第5章 · Coding Agent 与通用 Agent",
+      "title": "代码创造代码：Agent 自举",
+      "difficulty": "进阶",
+      "focus": "前面几节展示了代码生成在各个领域的应用——从数学思考到文档创作再到界面定制。如果我们把这些能力推向极限，会出现一个自然的问题：Agent 能不能用代码生成能力来创造另一个 Agen…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 14,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第5章 · 代码创造代码：Agent 自举",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter5/#代码创造代码agent-自举",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch6-模态与触发时机的扩展",
+      "track": "AI Agent",
+      "category": "第6章 · 交互：观察与动作空间的扩展",
+      "title": "模态与触发时机的扩展",
+      "difficulty": "进阶",
+      "focus": "把观察空间和动作空间摊开，会发现它们各有两个可以扩展的方向。",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 0,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第6章 · 模态与触发时机的扩展",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter6/#模态与触发时机的扩展",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch6-为什么需要异步",
+      "track": "AI Agent",
+      "category": "第6章 · 交互：观察与动作空间的扩展",
+      "title": "为什么需要异步",
+      "difficulty": "进阶",
+      "focus": "先用一个比喻说明为什么需要异步。同步（Synchronous）意味着“做完一件事才能做下一件”，异步（Asynchronous）意味着“多件事可以同时进行”。传统的同步 Agent…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 1,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第6章 · 为什么需要异步",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter6/#为什么需要异步",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch6-openclaw-的事件驱动机制实现",
+      "track": "AI Agent",
+      "category": "第6章 · 交互：观察与动作空间的扩展",
+      "title": "OpenClaw 的事件驱动机制实现",
+      "difficulty": "进阶",
+      "focus": "开源框架 OpenClaw 通过 Gateway 控制平面接收多渠道消息并路由到 Agent 运行时。它提供了三种内置的事件驱动机制：",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 2,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第6章 · OpenClaw 的事件驱动机制实现",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter6/#openclaw-的事件驱动机制实现",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch6-事件触发工具",
+      "track": "AI Agent",
+      "category": "第6章 · 交互：观察与动作空间的扩展",
+      "title": "事件触发工具",
+      "difficulty": "进阶",
+      "focus": "事件触发工具是外部事件驱动 Agent 行动的入口。如果没有事件触发工具，Agent 只能连续循环思考、调用工具，最后输出一个结果，然后等待用户的下一步输入。要让世界的变化转化为 …",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 3,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第6章 · 事件触发工具",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter6/#事件触发工具",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch6-用户沟通工具",
+      "track": "AI Agent",
+      "category": "第6章 · 交互：观察与动作空间的扩展",
+      "title": "用户沟通工具",
+      "difficulty": "进阶",
+      "focus": "用户沟通工具是为了适应 Agent 与用户之间日益多元的沟通渠道而产生的。许多 Agent（如 Claude Code、Manus）采用原生 ReAct 循环，Agent “说” …",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 4,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第6章 · 用户沟通工具",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter6/#用户沟通工具",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch6-虚拟身份与隔离执行环境",
+      "track": "AI Agent",
+      "category": "第6章 · 交互：观察与动作空间的扩展",
+      "title": "虚拟身份与隔离执行环境",
+      "difficulty": "进阶",
+      "focus": "第四章开头以《Her》中的 Samantha 为例，说明 Agent 如何借助工具与真实数字世界交互。要实现这样的通用助理，首先面临一个关键的架构选择：Agent 应该直接管理用户…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 5,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第6章 · 虚拟身份与隔离执行环境",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter6/#虚拟身份与隔离执行环境",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch6-事件处理机制",
+      "track": "AI Agent",
+      "category": "第6章 · 交互：观察与动作空间的扩展",
+      "title": "事件处理机制",
+      "difficulty": "进阶",
+      "focus": "一个 Agent 实例可能同时面对多个事件：用户的新消息、工具返回的结果、定时器到期、另一个 Agent 的协作请求。如何高效而正确地处理这些事件，直接影响着性能和用户体验。",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 6,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第6章 · 事件处理机制",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter6/#事件处理机制",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch6-不支持原生异步时的兼容方案",
+      "track": "AI Agent",
+      "category": "第6章 · 交互：观察与动作空间的扩展",
+      "title": "不支持原生异步时的兼容方案",
+      "difficulty": "进阶",
+      "focus": "实验 6-1 只处理串行事件——事件依次进入队列，Agent 一个接一个处理完毕。如果选用的模型或接口不支持原生异步，当工具尚未返回时用户突然打断，就需要在同步格式中表达异步语义。…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 7,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第6章 · 不支持原生异步时的兼容方案",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter6/#不支持原生异步时的兼容方案",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch6-模型原生异步gpt-6-astra",
+      "track": "AI Agent",
+      "category": "第6章 · 交互：观察与动作空间的扩展",
+      "title": "模型原生异步：GPT-6 Astra",
+      "difficulty": "进阶",
+      "focus": "前面的兼容方案由运行时安排事件的接入顺序，让使用同步接口的模型参与异步任务。另一条路线是让模型原生理解这种交互节奏：工具还在运行时，自己可以继续做别的事；用户中途补充要求时，也可以…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 8,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第6章 · 模型原生异步：GPT-6 Astra",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter6/#模型原生异步gpt-6-astra",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch6-从能接收异步消息到可靠处理异步任务",
+      "track": "AI Agent",
+      "category": "第6章 · 交互：观察与动作空间的扩展",
+      "title": "从“能接收异步消息”到“可靠处理异步任务”",
+      "difficulty": "进阶",
+      "focus": "原生异步解决了消息能否在运行中到达的问题，复杂任务中的可靠性还取决于模型如何使用这些消息。至少要检查三件事：",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 9,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第6章 · 从“能接收异步消息”到“可靠处理异步任务”",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter6/#从能接收异步消息到可靠处理异步任务",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch6-语音最自然的人机接口",
+      "track": "AI Agent",
+      "category": "第6章 · 交互：观察与动作空间的扩展",
+      "title": "语音：最自然的人机接口",
+      "difficulty": "进阶",
+      "focus": "语音的价值不只是把文字换成声音。正常说话的速度约为打字的四倍，而且不占用双手与视线，因此它天然适合把 Agent 放进持续工作、随时可能被打断的输入输出回路。语音输入法把口述转成文…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 10,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第6章 · 语音：最自然的人机接口",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter6/#语音最自然的人机接口",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch6-computer-usegui-自动化-agent",
+      "track": "AI Agent",
+      "category": "第6章 · 交互：观察与动作空间的扩展",
+      "title": "Computer Use：GUI 自动化 Agent",
+      "difficulty": "进阶",
+      "focus": "语音把时机轴推到了毫秒级，但它的观察仍是一维的声音流。Computer Use 把同一个问题搬上二维的屏幕：观察变成持续变化的像素，动作变成坐标上的点击与输入。语音场景强调“何时开…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 11,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第6章 · Computer Use：GUI 自动化 Agent",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter6/#computer-usegui-自动化-agent",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch6-机器人操作以-xlerobot-整理桌面为例",
+      "track": "AI Agent",
+      "category": "第6章 · 交互：观察与动作空间的扩展",
+      "title": "机器人操作：以 XLeRobot 整理桌面为例",
+      "difficulty": "进阶",
+      "focus": "阅读提示 ：本节始终使用同一个任务——“把红色杯子放进托盘，把黄色废纸放进垃圾盒，最后重新观察并确认桌面状态”。实验 6-10 和 6-12 是 XLeRobot 真机实验，需要机…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 12,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第6章 · 机器人操作：以 XLeRobot 整理桌面为例",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter6/#机器人操作以-xlerobot-整理桌面为例",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch7-一条评估任务的解剖τ-bench-的-telecom-领域",
+      "track": "AI Agent",
+      "category": "第7章 · Agent 的评估",
+      "title": "一条评估任务的解剖：τ²-bench 的 telecom 领域",
+      "difficulty": "进阶",
+      "focus": "我们先完整解剖 τ²-bench 的 telecom 领域一条真实任务。τ²-bench 是 Sierra 的开源项目，按照 chapter7/tau2-bench-eval/RE…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 0,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第7章 · 一条评估任务的解剖：τ²-bench 的 telecom 领域",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter7/#一条评估任务的解剖τ-bench-的-telecom-领域",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch7-评估指标成功的定义",
+      "track": "AI Agent",
+      "category": "第7章 · Agent 的评估",
+      "title": "评估指标：成功的定义",
+      "difficulty": "进阶",
+      "focus": "上一节的评估结果是五条任务通过四条。仅凭 0.8 这个数字无法判断该系统是否可用。若它对应的是一个退款客服，则意味着每五名用户中就有一人未能拿到应得的退款；若它对应的是一个用于挖掘…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 1,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第7章 · 评估指标：成功的定义",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter7/#评估指标成功的定义",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch7-评估环境",
+      "track": "AI Agent",
+      "category": "第7章 · Agent 的评估",
+      "title": "评估环境",
+      "difficulty": "进阶",
+      "focus": "明确了指标口径，接下来的问题是在哪里测。评估环境是一套能够重复运行的装置：给定同一个初始状态，同一个 Agent 应当得到可比较的结果。",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 2,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第7章 · 评估环境",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter7/#评估环境",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch7-评估数据集的设计",
+      "track": "AI Agent",
+      "category": "第7章 · Agent 的评估",
+      "title": "评估数据集的设计",
+      "difficulty": "进阶",
+      "focus": "评估环境是舞台，数据集是剧本。同样是那五个要素，换一类任务，填法可能完全不同：任务从何而来、验证器能核实到什么深度、如何防止被记忆。本节从几个公开基准的设计实践入手，最后回到一个更…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 3,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第7章 · 评估数据集的设计",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter7/#评估数据集的设计",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch7-llm-as-a-judge自动化评估的核心",
+      "track": "AI Agent",
+      "category": "第7章 · Agent 的评估",
+      "title": "LLM-as-a-Judge：自动化评估的核心",
+      "difficulty": "进阶",
+      "focus": "为什么需要 LLM-as-a-Judge？对于开放式任务（如生成报告、处理客户投诉、创意内容），没有标准答案可以自动对比，人工评估成本高且难以规模化。LLM-as-a-Judge …",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 4,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第7章 · LLM-as-a-Judge：自动化评估的核心",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter7/#llm-as-a-judge自动化评估的核心",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch7-失败归因从整条轨迹定位首个错误",
+      "track": "AI Agent",
+      "category": "第7章 · Agent 的评估",
+      "title": "失败归因：从整条轨迹定位首个错误",
+      "difficulty": "进阶",
+      "focus": "端到端评估通常只给出“成功”或“失败”，却没有回答“为什么失败、从哪一步开始失败”。要让评估结果真正驱动修复，必须对每条失败轨迹进行 失败归因（failure attributio…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 5,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第7章 · 失败归因：从整条轨迹定位首个错误",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter7/#失败归因从整条轨迹定位首个错误",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch7-端到端回归任务与轨迹前缀回归任务",
+      "track": "AI Agent",
+      "category": "第7章 · Agent 的评估",
+      "title": "端到端回归任务与轨迹前缀回归任务",
+      "difficulty": "进阶",
+      "focus": "失败归因明确了首个错误及其类别，下一步是把修复目标写成可重复执行的测试用例，即 回归任务 （regression task）。这里需要两层互补的回归任务： 端到端回归任务 验证改动…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 6,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第7章 · 端到端回归任务与轨迹前缀回归任务",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter7/#端到端回归任务与轨迹前缀回归任务",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch7-配对比较与模型排名",
+      "track": "AI Agent",
+      "category": "第7章 · Agent 的评估",
+      "title": "配对比较与模型排名",
+      "difficulty": "进阶",
+      "focus": "Elo 评分 （一种最初用于国际象棋的排名系统）通过大量的两两对决来量化模型的相对能力：分差越大，强者的预期胜率越高。例如，模型 A 得分 1200、模型 B 得分 1000，El…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 7,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第7章 · 配对比较与模型排名",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter7/#配对比较与模型排名",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch7-评估驱动的模型选型",
+      "track": "AI Agent",
+      "category": "第7章 · Agent 的评估",
+      "title": "评估驱动的模型选型",
+      "difficulty": "进阶",
+      "focus": "模型选择不是简单地“选最强的模型”，而是要根据应用场景和评估结果在多个维度之间作出权衡。",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 8,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第7章 · 评估驱动的模型选型",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter7/#评估驱动的模型选型",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch7-评估结果的统计显著性",
+      "track": "AI Agent",
+      "category": "第7章 · Agent 的评估",
+      "title": "评估结果的统计显著性",
+      "difficulty": "进阶",
+      "focus": "评估集有限，模型输出又有随机性，因此分数差异可能只是抽样噪声。若在 n n n 个用例上测得成功率 p p p ，标准误可粗略估计为：",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 9,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第7章 · 评估结果的统计显著性",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter7/#评估结果的统计显著性",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch7-agent-的可观测性",
+      "track": "AI Agent",
+      "category": "第7章 · Agent 的评估",
+      "title": "Agent 的可观测性",
+      "difficulty": "进阶",
+      "focus": "评估驱动的决策（无论是模型选型还是持续迭代）都依赖于高质量的运行数据。下面先介绍如何系统性地采集这些数据（可观测性），然后讨论如何将评估结果转化为系统改进。",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 10,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第7章 · Agent 的可观测性",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter7/#agent-的可观测性",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch7-从-benchmark-报告到系统改进",
+      "track": "AI Agent",
+      "category": "第7章 · Agent 的评估",
+      "title": "从 Benchmark 报告到系统改进",
+      "difficulty": "进阶",
+      "focus": "下面来看配套仓库里一次真实的 AndroidWorld 调优过程。实验只跑了 API 35 模拟器上的 4 个 Wi-Fi 设置任务，每项任务做一次配对对照。这个案例的价值不在于证…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 11,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第7章 · 从 Benchmark 报告到系统改进",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter7/#从-benchmark-报告到系统改进",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch7-从外部评估到内部评估生产级-agent-的评估基础设施",
+      "track": "AI Agent",
+      "category": "第7章 · Agent 的评估",
+      "title": "从外部评估到内部评估：生产级 Agent 的评估基础设施",
+      "difficulty": "进阶",
+      "focus": "前面几节讨论了如何从外部评估 Agent 系统——搭建评估环境、设计数据集、分析 Benchmark 报告。但最优秀的 Agent 产品不仅接受外部评估，还 内建了持续自我评估的基…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 12,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第7章 · 从外部评估到内部评估：生产级 Agent 的评估基础设施",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter7/#从外部评估到内部评估生产级-agent-的评估基础设施",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch7-仿真环境从评估到后训练的桥梁",
+      "track": "AI Agent",
+      "category": "第7章 · Agent 的评估",
+      "title": "仿真环境：从评估到后训练的桥梁",
+      "difficulty": "进阶",
+      "focus": "评估的终点不是打分，而是改进。本章已经展示了改进的两条路径：调整 Harness（从 Benchmark 报告到系统改进）和把评估嵌入产品工程（内部评估基础设施）。而最深入的改进方…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 13,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第7章 · 仿真环境：从评估到后训练的桥梁",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter7/#仿真环境从评估到后训练的桥梁",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch8-从预训练到-rl四阶段全景",
+      "track": "AI Agent",
+      "category": "第8章 · 模型后训练",
+      "title": "从预训练到 RL：四阶段全景",
+      "difficulty": "高级",
+      "focus": "引言给出了四个环节的地图，这一节先把每一步的机制讲透。它们使用的 数据 、 优化目标 、 代价 各不相同，理解这些差异，是读懂整章的钥匙。表8-1 先作总体介绍，随后逐项展开。",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 0,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第8章 · 从预训练到 RL：四阶段全景",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter8/#从预训练到-rl四阶段全景",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch8-从经典-rl-agent-到现代-agent-可选阅读",
+      "track": "AI Agent",
+      "category": "第8章 · 模型后训练",
+      "title": "从经典 RL Agent 到现代 Agent [可选阅读]",
+      "difficulty": "高级",
+      "focus": "强化学习（Reinforcement Learning, RL） 的核心在于学习如何根据当前情境选择动作，以获得最大的 累积奖励（Cumulative Reward） 。想象一个学…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 1,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第8章 · 从经典 RL Agent 到现代 Agent [可选阅读]",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter8/#从经典-rl-agent-到现代-agent-可选阅读",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch8-模型预训练基础-可选阅读",
+      "track": "AI Agent",
+      "category": "第8章 · 模型后训练",
+      "title": "模型预训练基础 [可选阅读]",
+      "difficulty": "高级",
+      "focus": "要理解后续训练技术为什么有效，需要先明白预训练建立了什么。SFT 与 RL 本质上是在基础模型已有的表征空间内进行优化——预训练奠定的知识结构决定了后续阶段的上限。因此，我们通过两…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 2,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第8章 · 模型预训练基础 [可选阅读]",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter8/#模型预训练基础-可选阅读",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch8-mid-training补知识与基础能力",
+      "track": "AI Agent",
+      "category": "第8章 · 模型后训练",
+      "title": "Mid-training：补知识与基础能力",
+      "difficulty": "高级",
+      "focus": "本章所说的 Mid-training ，是指从已有基础模型出发，在目标数据分布上继续开展一个阶段的语言模型训练。它通常仍采用与预训练相同的预测下一个词任务，对文档、代码或推导的全部…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 3,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第8章 · Mid-training：补知识与基础能力",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter8/#mid-training补知识与基础能力",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch8-sft监督微调",
+      "track": "AI Agent",
+      "category": "第8章 · 模型后训练",
+      "title": "SFT（监督微调）",
+      "difficulty": "高级",
+      "focus": "“四阶段全景”一节 已经讲了 SFT 的本质（换了数据、只在回答上算损失的 “预测下一个词”）。这一节用四个实验，看看这套“把稳定映射与协议写进参数”的机制在不同任务上具体固化了什…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 4,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第8章 · SFT（监督微调）",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter8/#sft监督微调",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch8-sft-数据合成从示范到可训练轨迹",
+      "track": "AI Agent",
+      "category": "第8章 · 模型后训练",
+      "title": "SFT 数据合成：从示范到可训练轨迹",
+      "difficulty": "高级",
+      "focus": "SFT 的上限首先由数据决定。实际项目很少能靠人工逐条写出足够多的示范，通常要把 少量人工种子、教师模型生成和验证器筛选 组合起来：人工示范定义格式与边界，教师模型放大规模，规则验…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 5,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第8章 · SFT 数据合成：从示范到可训练轨迹",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter8/#sft-数据合成从示范到可训练轨迹",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch8-何时选择-mid-trainingsft-与-rl",
+      "track": "AI Agent",
+      "category": "第8章 · 模型后训练",
+      "title": "何时选择 Mid-training、SFT 与 RL",
+      "difficulty": "高级",
+      "focus": "“四阶段全景”一节 讲清了三种训练的机制，这一节给出实操诊断： 先判断缺的是底座、协议，还是策略，不要把“模型做不好”统一归因成需要 RL。",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 6,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第8章 · 何时选择 Mid-training、SFT 与 RL",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter8/#何时选择-mid-trainingsft-与-rl",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch8-单轮强化学习记忆与泛化的对照",
+      "track": "AI Agent",
+      "category": "第8章 · 模型后训练",
+      "title": "单轮强化学习：记忆与泛化的对照",
+      "difficulty": "高级",
+      "focus": "“单轮” 指任务在一次交互中完成：模型接收输入、产出输出、获得奖励，无需维护跨步骤的状态。这种简化设定让我们能够聚焦于 SFT 与 RL 在学习机制上的根本差异，而不被多轮交互的复…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 7,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第8章 · 单轮强化学习：记忆与泛化的对照",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter8/#单轮强化学习记忆与泛化的对照",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch8-rl-算法从-16-次-rollout-到一次参数更新",
+      "track": "AI Agent",
+      "category": "第8章 · 模型后训练",
+      "title": "RL 算法：从 16 次 rollout 到一次参数更新",
+      "difficulty": "高级",
+      "focus": "GRPO（Group Relative Policy Optimization） 是 DeepSeek 提出的、今天 RL 训练最常用的算法之一。可以借助一个例子直观理解这个算法：…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 8,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第8章 · RL 算法：从 16 次 rollout 到一次参数更新",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter8/#rl-算法从-16-次-rollout-到一次参数更新",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch8-rl-环境从评估到仿真",
+      "track": "AI Agent",
+      "category": "第8章 · 模型后训练",
+      "title": "RL 环境：从评估到仿真",
+      "difficulty": "高级",
+      "focus": "RL 训练的瓶颈往往不在算法，而在 环境是否足够真实、可重置、可并行 。真实 Agent 的电话、付款或文件修改可能昂贵且不可逆，不能靠无限重试弥补一次错误；第七章的评估环境可以提…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 9,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第8章 · RL 环境：从评估到仿真",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter8/#rl-环境从评估到仿真",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch8-从单轮到多轮任务场景与信用分配",
+      "track": "AI Agent",
+      "category": "第8章 · 模型后训练",
+      "title": "从单轮到多轮：任务场景与信用分配",
+      "difficulty": "高级",
+      "focus": "从单轮到多轮，复杂性发生了质的跃迁。策略不仅要选择当前最优动作，还要考虑未来的状态价值；不仅要处理即时反馈，还要在延迟奖励下进行 信用分配（Credit Assignment） —…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 10,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第8章 · 从单轮到多轮：任务场景与信用分配",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter8/#从单轮到多轮任务场景与信用分配",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch8-奖励设计如何把任务目标变成学习信号",
+      "track": "AI Agent",
+      "category": "第8章 · 模型后训练",
+      "title": "奖励设计：如何把任务目标变成学习信号",
+      "difficulty": "高级",
+      "focus": "前面的单轮、多轮和工具调用场景说明了“要训练什么”；这一节回答“环境应该怎样告诉模型做得好不好”。奖励设计可以沿三个互补维度展开： 奖励来自哪里 、 什么时候给 、 要表达多少信息…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 11,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第8章 · 奖励设计：如何把任务目标变成学习信号",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter8/#奖励设计如何把任务目标变成学习信号",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch8-蒸馏提升样本效率",
+      "track": "AI Agent",
+      "category": "第8章 · 模型后训练",
+      "title": "蒸馏：提升样本效率",
+      "difficulty": "高级",
+      "focus": "前述实验已系统展示了 RL 在 Agent 训练中的核心价值，但都付出了高昂的样本成本。这里的“样本效率”特指： 每次昂贵的环境交互，能带来多少有效的参数更新 ，而不只是训练步数或…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 12,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第8章 · 蒸馏：提升样本效率",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter8/#蒸馏提升样本效率",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch8-从问题案例到后训练",
+      "track": "AI Agent",
+      "category": "第8章 · 模型后训练",
+      "title": "从问题案例到后训练",
+      "difficulty": "高级",
+      "focus": "这一节回到第七章留下的问题：基于生产问题案例构建的评估数据集，如何真正变成后训练的输入。第七章结尾把评估环境和验证器比作后训练的基石。失败归因记录、端到端回归任务、轨迹前缀回归任务…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 13,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第8章 · 从问题案例到后训练",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter8/#从问题案例到后训练",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch8-后训练实践要点",
+      "track": "AI Agent",
+      "category": "第8章 · 模型后训练",
+      "title": "后训练实践要点",
+      "difficulty": "高级",
+      "focus": "这一章从预训练的“预测下一个词”出发，走了很长一段路：Mid-training 在目标分布上补知识与基础能力，SFT 高效学习格式与协议，结果导向的 RL 在本章的对照实验中改善了…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 14,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第8章 · 后训练实践要点",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter8/#后训练实践要点",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch9-从运行轨迹中获得学习信号",
+      "track": "AI Agent",
+      "category": "第9章 · Agent 的持续进化",
+      "title": "从运行轨迹中获得学习信号",
+      "difficulty": "高级",
+      "focus": "持续进化的起点是第七章所述的评估（evaluation）。如果系统不知道任务是否完成，也不知道哪一步造成了成功或失败，那么语言模型生成的反思只能是一种猜测。",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 0,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第9章 · 从运行轨迹中获得学习信号",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter9/#从运行轨迹中获得学习信号",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch9-将经验沉淀为知识",
+      "track": "AI Agent",
+      "category": "第9章 · Agent 的持续进化",
+      "title": "将经验沉淀为知识",
+      "difficulty": "高级",
+      "focus": "最轻量的进化方式，是把多次运行中反复出现的经验整理成可检索的知识文档。这里所说的“经验知识库”与第三章共享存储、索引和检索技术，但知识来源和验证目标不同。第三章主要从用户对话、文档…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 1,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第9章 · 将经验沉淀为知识",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter9/#将经验沉淀为知识",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch9-将经验写成指令",
+      "track": "AI Agent",
+      "category": "第9章 · Agent 的持续进化",
+      "title": "将经验写成指令",
+      "difficulty": "高级",
+      "focus": "经验知识库给 Agent 提供“可以参考的资料”，Prompt 和 Skill 则规定“应该怎样行动”。当多条相似轨迹反复暴露同一种策略错误，而且错误能够用语言清楚描述时，才值得把…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 2,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第9章 · 将经验写成指令",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter9/#将经验写成指令",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch9-将经验写成程序",
+      "track": "AI Agent",
+      "category": "第9章 · Agent 的持续进化",
+      "title": "将经验写成程序",
+      "difficulty": "高级",
+      "focus": "当经验描述的是稳定、重复且可验证的操作时，每次都让模型重新阅读文档和推理并不经济。此时更合适的做法是把经验编译为工作流、工具或 Harness 代码，使一次探索变成可重复执行的程序…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 3,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第9章 · 将经验写成程序",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter9/#将经验写成程序",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch9-将经验写入参数",
+      "track": "AI Agent",
+      "category": "第9章 · Agent 的持续进化",
+      "title": "将经验写入参数",
+      "difficulty": "高级",
+      "focus": "知识、指令和程序都建立在一个前提上：目标能力能够被外部符号较完整地表达。医疗影像理解、自然的语音韵律、消除文本的模板化“AI 味”、长程规划等能力却很难压缩成几条规则或工作流。这类…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 4,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第9章 · 将经验写入参数",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter9/#将经验写入参数",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch9-从更新产物到更新更新方法",
+      "track": "AI Agent",
+      "category": "第9章 · Agent 的持续进化",
+      "title": "从更新产物到更新“更新方法”",
+      "difficulty": "高级",
+      "focus": "前面的四种方法讨论了经验最终 写到哪里 ，但持续进化还有另一条正交的轴：系统正在优化的究竟是某份产物的内容，还是产生、管理和验证这些产物的方法。沿这条轴看，优化对象可以逐层扩大为：…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 5,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第9章 · 从更新产物到更新“更新方法”",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter9/#从更新产物到更新更新方法",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch9-构建可长期运行的持续进化闭环",
+      "track": "AI Agent",
+      "category": "第9章 · Agent 的持续进化",
+      "title": "构建可长期运行的持续进化闭环",
+      "difficulty": "高级",
+      "focus": "四种更新方式只有进入同一个自主循环，才会从单次优化变成持续进化。图9-5展示了生产系统中更稳妥的双循环结构：在线执行循环只完成任务并记录证据，不直接改写正式 Agent；离线进化循…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 6,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第9章 · 构建可长期运行的持续进化闭环",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter9/#构建可长期运行的持续进化闭环",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch10-多-agent-协作的分类框架",
+      "track": "AI Agent",
+      "category": "第10章 · 多 Agent 协作",
+      "title": "多 Agent 协作的分类框架",
+      "difficulty": "高级",
+      "focus": "要构建多 Agent 系统，首先需要理解两个核心设计维度，它们共同决定了系统的基本架构和实现方式。",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 0,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第10章 · 多 Agent 协作的分类框架",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter10/#多-agent-协作的分类框架",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch10-多-agent-何时真正优于单-agent",
+      "track": "AI Agent",
+      "category": "第10章 · 多 Agent 协作",
+      "title": "多 Agent 何时真正优于单 Agent",
+      "difficulty": "高级",
+      "focus": "在进入具体的协作架构之前，先回答一个更根本的问题： 什么时候真正需要多个 Agent，什么时候一个 Agent 就够了？ 这个问题的答案会成为后文所有工程方案的总体参照。近年的一系…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 1,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第10章 · 多 Agent 何时真正优于单 Agent",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter10/#多-agent-何时真正优于单-agent",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch10-共享上下文的多-agent-协作",
+      "track": "AI Agent",
+      "category": "第10章 · 多 Agent 协作",
+      "title": "共享上下文的多 Agent 协作",
+      "difficulty": "高级",
+      "focus": "共享上下文的多 Agent 协作中，每个阶段都是一个独立的 Agent（拥有自己的系统提示词和工具集），但它继承了前序 Agent 的完整轨迹——就像接班的同事能翻阅前任留下的所有…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 2,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第10章 · 共享上下文的多 Agent 协作",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter10/#共享上下文的多-agent-协作",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch10-agent-眼中的文件系统",
+      "track": "AI Agent",
+      "category": "第10章 · 多 Agent 协作",
+      "title": "Agent 眼中的文件系统",
+      "difficulty": "高级",
+      "focus": "在实际系统中，Agent 访问的并非单一存储，而是一个 虚拟文件系统 （virtual filesystem）：来源、生命周期与权限各异的存储被挂载（mount）到同一目录树下，A…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 3,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第10章 · Agent 眼中的文件系统",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter10/#agent-眼中的文件系统",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch10-agent-间的通信与控制",
+      "track": "AI Agent",
+      "category": "第10章 · 多 Agent 协作",
+      "title": "Agent 间的通信与控制",
+      "difficulty": "高级",
+      "focus": "文件系统解决了 Agent 间 产物交换 的问题，协作还需要一条 控制平面 。这正是表10-2 中生命周期各行的用武之地：第四章给出的这组工具原语——创建（ spawn_subag…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 4,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第10章 · Agent 间的通信与控制",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter10/#agent-间的通信与控制",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch10-对等协作模式相互制衡与迭代改进",
+      "track": "AI Agent",
+      "category": "第10章 · 多 Agent 协作",
+      "title": "对等协作模式：相互制衡与迭代改进",
+      "difficulty": "高级",
+      "focus": "对等协作通常涉及 2-3 个平等身份的 Agent，通过多轮迭代互相提供反馈。它的潜在价值在于引入独立视角和认知多样性，但“多个实例”不等于“多种思路”。当模型、上下文和脚手架高度…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 5,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第10章 · 对等协作模式：相互制衡与迭代改进",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter10/#对等协作模式相互制衡与迭代改进",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch10-管理者模式中心化协调",
+      "track": "AI Agent",
+      "category": "第10章 · 多 Agent 协作",
+      "title": "管理者模式：中心化协调",
+      "difficulty": "高级",
+      "focus": "当任务涉及大量子任务、需要动态调度或子任务之间存在复杂依赖时，对等协作就力不从心了，需要引入管理者模式。Manager Agent 的职责就像一个项目经理：先理解整体任务，再拆解为…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 6,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第10章 · 管理者模式：中心化协调",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter10/#管理者模式中心化协调",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch10-去中心化模式",
+      "track": "AI Agent",
+      "category": "第10章 · 多 Agent 协作",
+      "title": "去中心化模式",
+      "difficulty": "高级",
+      "focus": "有了管理者模式，为什么还要去中心化模式？去掉中心控制者的动机，主要在于模拟人类社会的组织方式：让多个职责对等的角色分工与制衡，各自从自己的专业视角审视问题、自主决定与谁沟通，而不是…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 7,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第10章 · 去中心化模式",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter10/#去中心化模式",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch10-跨组织协作a2a-协议",
+      "track": "AI Agent",
+      "category": "第10章 · 多 Agent 协作",
+      "title": "跨组织协作：A2A 协议",
+      "difficulty": "高级",
+      "focus": "以上系统都假设所有 Agent 由同一个团队开发、运行在同一个系统内，此时参数传递、共享文件、消息总线三种通信机制足够用。但当协作跨越组织边界——你的 Agent 需要调用另一家公…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 8,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第10章 · 跨组织协作：A2A 协议",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter10/#跨组织协作a2a-协议",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch10-多-agent-协作的失败模式",
+      "track": "AI Agent",
+      "category": "第10章 · 多 Agent 协作",
+      "title": "多 Agent 协作的失败模式",
+      "difficulty": "高级",
+      "focus": "多 Agent 系统在引入协作能力的同时，也引入了单 Agent 不存在的新型失败模式。2025 年的论文《Why Do Multi-Agent LLM Systems Fail?…",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 9,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第10章 · 多 Agent 协作的失败模式",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter10/#多-agent-协作的失败模式",
+          "type": "tutorial"
+        }
+      ]
+    },
+    {
+      "id": "aibook-ch10-agent-社会",
+      "track": "AI Agent",
+      "category": "第10章 · 多 Agent 协作",
+      "title": "Agent 社会",
+      "difficulty": "高级",
+      "focus": "前面三节讨论的都是目标明确的任务协作。接下来将视角转向一个更开放的问题： 当 Agent 数量从几个扩展到成百上千、交互足够自由时，会涌现出什么行为？",
+      "source": "深入理解 AI Agent",
+      "lastmod": null,
+      "seq": 10,
+      "references": [
+        {
+          "label": "深入理解 AI Agent · 第10章 · Agent 社会",
+          "url": "https://bojieli.github.io/ai-agent-book/astro/book/chapter10/#agent-社会",
           "type": "tutorial"
         }
       ]

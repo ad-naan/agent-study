@@ -4,7 +4,8 @@
  * 组合两部分数据：
  * 1. 手写精选主题（lib/knowledge.ts 的 topics）——质量高、带学习路径。
  * 2. 订阅抓取的大主题池（data/catalog.json）——由 scripts/build-catalog.mjs 每日
- *    从 JavaGuide / 小林 coding 的 sitemap 全站抓取，数量可达数百条。
+ *    从 JavaGuide / 小林 coding 的 sitemap 全站抓取，外加《深入理解 AI Agent》
+ *    按小节拆分，数量可达数百条。
  *
  * 运行期只读取 catalog.json（快），不做网络请求；讲义正文仍由 /api/lesson 在
  * 用户点击时基于原文实时生成。若 catalog.json 不存在（未跑过抓取脚本），则自动

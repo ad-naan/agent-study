@@ -135,7 +135,31 @@ export function extractReadableText(html: string): string {
   return text;
 }
 
-/** 抓取单个文档并抽取正文 */
+/**
+ * 截取锚点所在标题到下一个同级或更高级标题之间的 HTML。
+ * 锚点不是标题（或找不到）时返回 null，调用方退回整页抽取。
+ */
+export function sliceSection(html: string, anchor: string): string | null {
+  const pos = html.indexOf(` id="${anchor}"`);
+  if (pos === -1) return null;
+  const start = html.lastIndexOf("<h", pos);
+  const level = Number(html[start + 2]);
+  if (start === -1 || !(level >= 1 && level <= 6)) return null;
+  const endRe = new RegExp(`<h[1-${level}][\\s>]`, "i");
+  const m = endRe.exec(html.slice(start + 3));
+  return html.slice(start, m ? start + 3 + m.index : html.length);
+}
+
+function anchorOf(url: string): string {
+  try {
+    const { hash } = new URL(url);
+    return hash ? decodeURIComponent(hash.slice(1)) : "";
+  } catch {
+    return "";
+  }
+}
+
+/** 抓取单个文档并抽取正文（URL 带 #锚点时只抽取该小节） */
 export async function fetchDoc(
   label: string,
   url: string,
@@ -182,7 +206,9 @@ export async function fetchDoc(
       return { label, url, ok: false, text: "", error: "页面过大，已跳过" };
     }
     const html = new TextDecoder("utf-8").decode(buf);
-    const text = extractReadableText(html);
+    const anchor = anchorOf(url);
+    const section = anchor ? sliceSection(html, anchor) : null;
+    const text = extractReadableText(section ?? html);
     if (!text || text.length < 80) {
       return { label, url, ok: false, text: "", error: "未能提取到正文" };
     }
